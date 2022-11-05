@@ -1,0 +1,14 @@
+{
+  "type": "module",
+  "dependencies": {
+    "chai": "^4.3.6",
+    "chromedriver": "^107.0.3",
+    "selenium-webdriver": "^4.4.0"
+  },
+  "scripts": {
+    "test": "mocha -timeout 600000"
+  },
+  "devDependencies": {
+    "mocha": "^10.1.0"
+  }
+}

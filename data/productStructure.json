@@ -1,0 +1,326 @@
+{
+  "pages": [
+    {
+      "name": "home page",
+      "title": "Find Jobs in Technology",
+      "url": "https://www.dice.com/",
+      "elements": [
+        {
+          "category": "navigation",
+          "buttons": [
+            {
+              "title": "Tech Careers",
+              "type": "DropDown",
+              "locators": [
+                {
+                  "name": "button",
+                  "element": "a"
+                },
+                {
+                  "name": "stateAttribute",
+                  "attribute": "aria-expanded",
+                  "closedValue": "false"
+                }
+              ],
+              "options": [
+                {
+                  "title": "Job Search",
+                  "locators": [
+                    {
+                      "name": "button",
+                      "element": "a"
+                    }
+                  ]
+                },
+                {
+                  "title": "Career Events",
+                  "locators": [
+                    {
+                      "name": "button",
+                      "element": "a"
+                    }
+                  ]
+                },
+                {
+                  "title": "Dice Careers Mobile",
+                  "locators": [
+                    {
+                      "name": "button",
+                      "element": "a"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Insights",
+              "type": "Link",
+              "locators": {
+                "type": "css",
+                "value": "[href='https://insights.dice.com/']"
+              }
+            },
+            {
+              "title": "Career Development Resources",
+              "type": "Link",
+              "locators": {
+                "type": "css",
+                "value": "[href='/career-development']"
+              },
+              "icon": {
+                "locators": {
+                  "type": "css",
+                  "value": "[src='/binaries/content/gallery/dice/icons/covid-center-icon.png']"
+                },
+                "destinationUrl": "https://www.dice.com/career-development"
+              }
+            },
+            {
+              "title": "For Employers",
+              "type": "DropDown",
+              "locators": [
+                {
+                  "name": "button",
+                  "element": "a"
+                },
+                {
+                  "name": "stateAttribute",
+                  "attribute": "aria-expanded",
+                  "closedValue": "false"
+                }
+              ],
+              "icon": {
+                "locators": {
+                  "type": "xPath",
+                  "value": "//li[@data-analytics-parent='For Employers']//div[@class='menu-toggle']//span[contains(@class,'menu-active')]"
+                }
+              },
+              "options": [
+                {
+                  "title": "Search Resumes",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='http://techhub.dice.com/2019-homepagebannertest.html']"
+                  },
+                  "destinationUrl": "http://techhub.dice.com/2019-homepagebannertest.html"
+                },
+                {
+                  "title": "Post Jobs",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='/hiring/webstore']"
+                  },
+                  "destinationUrl": "https://www.dice.com/hiring/webstore"
+                },
+                {
+                  "title": "Talent Solutions",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='/hiring']"
+                  },
+                  "destinationUrl": "https://www.dice.com/hiring"
+                },
+                {
+                  "title": "Resource Library",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='/hiring/employer-resource-library']"
+                  },
+                  "destinationUrl": "https://www.dice.com/hiring/employer-resource-library"
+                },
+                {
+                  "title": "2022 Salary Report",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='https://www.dice.com/recruiting/ebooks/dice-tech-salary-report/cover/']"
+                  },
+                  "destinationUrl": "https://www.dice.com/recruiting/ebooks/dice-tech-salary-report/cover/"
+                }
+              ]
+            },
+            {
+              "title": "Contact Sales",
+              "type": "Link",
+              "locators": {
+                "type": "css",
+                "value": "[href='https://techhub.dice.com/2017-contact-us.html']",
+                "childState": "[aria-expanded]"
+              },
+              "destinationUrl": "https://techhub.dice.com/2017-contact-us.html"
+            },
+            {
+              "title": "Login/Register",
+              "type": "DropDown",
+              "locators": [
+                {
+                  "name": "button",
+                  "element": "a"
+                },
+                {
+                  "name": "stateAttribute",
+                  "attribute": "aria-expanded",
+                  "closedValue": "false"
+                }
+              ],
+              "options": [
+                {
+                  "title": "Login",
+                  "locators": [
+                    {
+                      "name": "button",
+                      "element": "a"
+                    }
+                  ],
+                  "destinationUrl": "https://www.dice.com/dashboard/login"
+                },
+                {
+                  "title": "Register",
+                  "locators": [
+                    {
+                      "name": "button",
+                      "element": "a"
+                    }
+                  ],
+                  "destinationUrl": "https://www.dice.com/register"
+                },
+                {
+                  "title": "Employer Login",
+                  "locators": [
+                    {
+                      "name": "button",
+                      "element": "a"
+                    }
+                  ],
+                  "destinationUrl": "https://www.dice.com/employer"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Job Search",
+      "title": "Search Jobs | Dice.com",
+      "url": "https://www.dice.com/jobs/",
+      "elements": [
+        {
+          "category": "navigation",
+          "buttons": [
+            {
+              "title": "dice-logo.svg",
+              "type": "image",
+              "locators": [
+                {
+                  "name": "button",
+                  "element": "img"
+                }
+              ],
+              "destinationUrl": "https://insights.dice.com/"
+            },
+            {
+              "title": "Tech Careers",
+              "type": "DropDown",
+              "locators": [
+                {
+                  "name": "button",
+                  "element": "a"
+                },
+                {
+                  "name": "stateAttribute",
+                  "attribute": "aria-expanded",
+                  "closedValue": "false"
+                }
+              ],
+              "options": [
+                {
+                  "title": "Job Search",
+                  "locators": [
+                    {
+                      "name": "button",
+                      "element": "a"
+                    }
+                  ],
+                  "destinationUrl": "https://www.dice.com/jobs"
+                },
+                {
+                  "title": "Dice Careers Mobile",
+                  "locators": [
+                    {
+                      "name": "button",
+                      "element": "a"
+                    }
+                  ],
+                  "destinationUrl": "https://www.dice.com/career-events"
+                }
+              ]
+            },
+            {
+              "title": "For Employers",
+              "type": "DropDown",
+              "locators": [
+                {
+                  "name": "button",
+                  "element": "a"
+                },
+                {
+                  "name": "stateAttribute",
+                  "attribute": "aria-expanded",
+                  "closedValue": "false"
+                }
+              ],
+              "icon": {
+                "locators": {
+                  "type": "xPath",
+                  "value": "//li[@data-analytics-parent='For Employers']//div[@class='menu-toggle']//span[contains(@class,'menu-active')]"
+                }
+              },
+              "options": [
+                {
+                  "title": "Search Resumes",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='http://techhub.dice.com/2019-homepagebannertest.html']"
+                  },
+                  "destinationUrl": "http://techhub.dice.com/2019-homepagebannertest.html"
+                },
+                {
+                  "title": "Post Jobs",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='/hiring/webstore']"
+                  },
+                  "destinationUrl": "https://www.dice.com/hiring/webstore"
+                },
+                {
+                  "title": "Talent Solutions",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='/hiring']"
+                  },
+                  "destinationUrl": "https://www.dice.com/hiring"
+                },
+                {
+                  "title": "Resource Library",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='/hiring/employer-resource-library']"
+                  },
+                  "destinationUrl": "https://www.dice.com/hiring/employer-resource-library"
+                },
+                {
+                  "title": "2022 Salary Report",
+                  "locators": {
+                    "type": "css",
+                    "value": "[href='https://www.dice.com/recruiting/ebooks/dice-tech-salary-report/cover/']"
+                  },
+                  "destinationUrl": "https://www.dice.com/recruiting/ebooks/dice-tech-salary-report/cover/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
