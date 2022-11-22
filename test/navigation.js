@@ -115,6 +115,6 @@ describe('Can check navigation on Dice.com', function () {
       //actionStr += `${actions[l].questionType} (${JSON.stringify(actions[l].answer)})`
     }
     console.log(actionStr);
-    console.log(`jenkins integration`);
+    console.log(`jenkins integration-2`);
   }
 });
